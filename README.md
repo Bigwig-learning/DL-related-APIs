@@ -1,0 +1,2 @@
+# DL-related-APIs
+Sensitive sources and sinks need to be identified as DL-related API set to perform sensitive information leaks analysis. The sources refer to APIs related to DL inference tasks, such as APIs for initial loading data of user images into face detectors and APIs for constructing detectors, and sinks refer to APIs that perform dangerous operations, such as database storage, network sending data, and other APIs that abnormally transfer inference data and inference results.
